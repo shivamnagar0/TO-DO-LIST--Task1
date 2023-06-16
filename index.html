@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-Do App</title>
+
+    <!--Vendor CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+     <!--Linking Favicon-->
+     <link rel="shortcut icon" href="fav.jpg" type="image/x-icon">
+     
+     <!--Main CSS-->
+     <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+<h1>TO DO LIST</h1>
+
+    <div class="container">
+        <h1>Tasks</h1>
+        <input type="text" name="add_task" id="task" placeholder="Add new task here">
+        <button class="inpbtn"><i class="glyphicon glyphicon-plus"></i></button>
+        <ul id="tasks_list"></ul>
+        <div class="msg">
+            <span>You Have <span class="pending_Tasks"></span> Pending Tasks</span>
+            <button class="msgbtn"><i class="glyphicon glyphicon-trash"></i>Clear All</button></span>
+        </div>
+    </div>
+    
+    <!--Main JavaScript-->
+    <script src="index.js"></script>
+</body>
+</html>
